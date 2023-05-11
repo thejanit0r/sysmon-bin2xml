@@ -2,7 +2,7 @@
 """
     Sysmon Bin2XML
 
-    This utility converts SysInternals Sysmon's binary configuration blob to XML
+    This utility converts SysInternals' Sysmon binary configuration blob to XML
         
     Default location for the configuration:
 
@@ -457,7 +457,7 @@ def main():
 
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument("-i", "--input", type=str, required=True, help="Path to Sysmon's binary configuration file")
-    parser.add_argument("-o", "--output", type=str, required=True, help="Path to the output file")
+    parser.add_argument("-o", "--output", type=str, required=True, help="Path to the output XML configuration file")
     args = parser.parse_args()
 
     # Check if the file exists
