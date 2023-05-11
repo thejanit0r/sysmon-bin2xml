@@ -4,7 +4,7 @@ This utility converts a SysInternals' Sysmon binary configuration blob back to X
 
 In order to configure Sysmon, an XML configuration file is passed as an argument to Sysmon, which in turn will compile the XML configuration to a binary format and store it, typically, in `HKLM\SYSTEM\CurrentControlSet\Services\SysmonDrv\Parameters\Rules`. Unfortunately, when an XML configuration file is lost, due to e.g. bad backup practices, there is no officially documented way to rebuild it from the currently active configuration; in such situations this script may be of help.
 
-It has been tested on popular public Sysmon configurations, i.e. from https://github.com/Neo23x0/sysmon-config and from https://github.com/SwiftOnSecurity/sysmon-config, in conjunction with Sysmon 14.16. It may or may not work on older XML schema and binary versions; if it doesn't, you may try your luck with https://github.com/mattifestation/PSSysmonTools.
+It has been tested on popular public Sysmon configuration files, i.e. from https://github.com/Neo23x0/sysmon-config and from https://github.com/SwiftOnSecurity/sysmon-config, in conjunction with Sysmon 14.16. It may or may not work on older XML schemas and binary versions; if it doesn't, you may try your luck with https://github.com/mattifestation/PSSysmonTools. Pull requests are welcome.
 
 **What is Sysmon?**
 
