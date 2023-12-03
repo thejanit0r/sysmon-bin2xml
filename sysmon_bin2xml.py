@@ -93,7 +93,8 @@ EventTypes = [
     "ProcessTampering",
     "FileDeleteDetected",
     "FileBlockExecutable",
-    "FileBlockShredding"
+    "FileBlockShredding",
+    "FileExecutableDetected"
 ]
 
 Fields = [
@@ -447,6 +448,17 @@ Fields = [
         "TargetFilename",
         "Hashes",
         "IsExecutable"
+    ],
+    # FileExecutableDetected
+    [
+        "RuleName",
+        "UtcTime",
+        "ProcessGuid",
+        "ProcessId",
+        "User",
+        "Image",
+        "TargetFilename",
+        "Hashes"
     ]
 ]
 

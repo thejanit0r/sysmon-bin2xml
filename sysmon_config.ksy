@@ -183,3 +183,4 @@ enums:
     26: et_file_delete_detected
     27: et_file_block_executable
     28: et_file_block_shredding
+	29: et_file_executable_detected

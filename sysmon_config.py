@@ -65,6 +65,8 @@ class SysmonConfig(KaitaiStruct):
         et_file_delete_detected = 26
         et_file_block_executable = 27
         et_file_block_shredding = 28
+        et_file_executable_detected = 29
+
     def __init__(self, _io, _parent=None, _root=None):
         self._io = _io
         self._parent = _parent
